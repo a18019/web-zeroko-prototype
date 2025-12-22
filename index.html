@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ゼロ高を動かそう。</title>
+    <meta
+      name="description"
+      content="生徒が伝えるゼロ高のリアル。説明会や体験入学への導線を強化した学生制作サイトです。"
+    />
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ========================================
+         Header
+    ======================================== -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav" aria-label="メインナビゲーション">
+          <div class="nav__logo">
+            その一歩が、生徒の手でゼロ高の未来を変える。
+          </div>
+          <div class="nav__cta">
+            <a class="btn" href="https://www.zero-ko.com/information-session/">
+              説明会申込
+            </a>
+            <a class="btn btn--secondary" href="#line">LINE登録</a>
+          </div>
+        </nav>
+
+        <div class="hero">
+          <div class="hero__content">
+            <h1 class="hero__title">ゼロ高を動かそう。</h1>
+            <p class="hero__subtitle muted">
+              リアルな声で伝えるゼロ高の"今"。中学生と保護者に向けた、生徒目線の紹介ページです。
+            </p>
+            <div class="hero__actions">
+              <a
+                class="btn"
+                href="https://www.zero-ko.com/information-session/"
+              >
+                説明会に申し込む
+              </a>
+              <a class="btn btn--secondary btn--ml" href="#line">LINEで相談</a>
+            </div>
+          </div>
+
+          <div class="hero__photos">
+            <figure class="polaroid">
+              <img
+                class="polaroid__img"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='520' height='300'><rect width='100%' height='100%' fill='%23e8fdf6'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%23123' font-size='20'>制作メンバー写真</text></svg>"
+                alt="制作メンバー"
+              />
+            </figure>
+            <figure class="polaroid">
+              <img
+                class="polaroid__img"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='520' height='300'><rect width='100%' height='100%' fill='%23fff7e6'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%23c66' font-size='20'>授業風景</text></svg>"
+                alt="授業風景"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================
+         Main Content
+    ======================================== -->
+    <main>
+      <!-- 生徒インタビュー -->
+      <section id="interviews" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>生徒が語る「ゼロ高とは」</h2>
+            <p class="muted">
+              3名のインタビュー＋短い動画コメント（YouTube埋め込み）
+            </p>
+          </header>
+
+          <div class="interviews">
+            <article class="interview">
+              <p class="interview__name">ゆうた（2年）</p>
+              <div class="interview__speech">
+                なぜゼロ高を選んだか：自分のペースで学べて、プロの授業が受けられるから。
+              </div>
+              <p class="interview__note muted">
+                どんな学び方：午前はオンラインで基礎、午後はプロジェクト
+              </p>
+            </article>
+
+            <article class="interview">
+              <p class="interview__name">あや（1年）</p>
+              <div class="interview__speech">
+                通信制の良さ：通学時間が減って創作時間が増えた。驚きは仲間が濃いこと！
+              </div>
+              <p class="interview__note muted">動画コメント：</p>
+              <div class="interview__video">
+                <iframe
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="生徒コメント動画"
+                  frameborder="0"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="interview">
+              <p class="interview__name">りく（3年）</p>
+              <div class="interview__speech">
+                通信制で大変なところ：自分でスケジュール管理する必要がある。でもそれが社会で役立つ。
+              </div>
+              <p class="interview__note muted">
+                学んだことをプロジェクトで即実践している点が好き。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 1日の流れ・年間 -->
+      <section id="day-year" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>ゼロ高での1日・1年</h2>
+          </header>
+
+          <div class="schedule-grid">
+            <div>
+              <h3>ゼロ高の1日のスケジュール（授業がある日：月・火）</h3>
+              <div class="timeline">
+                <div class="timeline__item">
+                  <strong>10:00〜11:00｜オンライン授業</strong>
+                  ビジネスに関する内容を中心に、オンラインで授業を行います。<br />
+                  ※ゲスト講師を招いた回は、10:00〜11:30で実施します。
+                </div>
+                <div class="timeline__item">
+                  <strong>11:30以降｜自由時間</strong>
+                  午後・夜に決まった予定はありません。<br />
+                  プロジェクト活動、作品制作、アルバイト、自己学習など、生徒が自分で考えて時間を使います。
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3>授業がない日（水〜金）</h3>
+              <div class="timeline">
+                <div class="timeline__item">
+                  <strong>終日｜自由時間</strong>
+                  学校で決められたスケジュールはなく、自分の目標や生活リズムに合わせて過ごします。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- プロジェクト紹介 -->
+      <section id="projects" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>プロジェクト・活動紹介</h2>
+            <p class="muted">生徒主体のプロジェクトを写真とSNS風投稿で紹介</p>
+          </header>
+
+          <div class="projects">
+            <article class="project">
+              <h3 class="project__title">ゼロ高メディア部</h3>
+              <p class="project__desc muted">
+                文化祭で紙面・動画を制作。SNSに投稿したスクリーンショットを引用。
+              </p>
+            </article>
+            <article class="project">
+              <h3 class="project__title">映像制作チーム</h3>
+              <p class="project__desc muted">
+                授業やイベントを撮影・編集して学内で配信
+              </p>
+            </article>
+            <article class="project">
+              <h3 class="project__title">文化祭企画班</h3>
+              <p class="project__desc muted">
+                企画立案から当日運営まで、生徒が主体で実施
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 本音 -->
+      <section id="honest" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>ゼロ高生の本音</h2>
+            <p class="muted">
+              良いところも大変なところも正直に掲載（生っぽさ重視）
+            </p>
+          </header>
+
+          <div class="voices">
+            <article class="voice-card">
+              <h3 class="voice-card__title">いいところ</h3>
+              <p class="voice-card__text muted">
+                自由に学べる・仲間と深く関われる
+              </p>
+            </article>
+            <article class="voice-card">
+              <h3 class="voice-card__title">大変なところ</h3>
+              <p class="voice-card__text muted">自分で計画を作る必要がある</p>
+            </article>
+            <article class="voice-card">
+              <h3 class="voice-card__title">驚き</h3>
+              <p class="voice-card__text muted">
+                プロの授業が早くから受けられる
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 先生コメント -->
+      <section id="staff" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>先生・スタッフの声</h2>
+            <p class="muted">
+              生徒を支える先生たちのコメント（生徒→先生→生徒のリズムで）
+            </p>
+          </header>
+
+          <div class="staff">
+            <article class="staff-card">
+              <img
+                class="staff-card__img"
+                src="images/2025 Autumn Camp DAY2-20.jpg"
+                alt="先生A"
+              />
+              <p class="staff-card__comment muted">
+                先生A：生徒の挑戦を大切にしています。
+              </p>
+            </article>
+            <article class="staff-card">
+              <img
+                class="staff-card__img"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200'><rect width='100%' height='100%' fill='%23fff1f0'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%238a3' font-size='16'>先生写真</text></svg>"
+                alt="先生B"
+              />
+              <p class="staff-card__comment muted">
+                先生B：できる範囲でサポートします。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="signup" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>もっと知りたい人へ</h2>
+            <p class="muted">
+              説明会・相談フォーム・LINE登録への導線を用意しています。
+            </p>
+          </header>
+
+          <div class="final-cta">
+            <a
+              class="btn"
+              href="https://www.zero-ko.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              公式サイトを見る
+            </a>
+            <a class="btn" href="https://www.zero-ko.com/information-session/">
+              説明会申込フォーム
+            </a>
+            <a class="btn btn--secondary" id="line" href="#line">LINEで相談</a>
+          </div>
+
+          <div class="cta-message">
+            <p class="cta-message__title">ゼロ高生になりたいあなたへ：</p>
+            <p class="cta-message__text muted">
+              「一歩踏み出して、まず説明会に来てみてください」 — 生徒代表より
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact form -->
+      <section id="contact-form" class="section">
+        <div class="container">
+          <h2>説明会・相談申し込み</h2>
+          <form id="contact-form-element" aria-label="お問い合わせフォーム">
+            <div class="form-grid">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="お名前（必須）"
+                required
+                aria-label="お名前"
+              />
+              <input
+                class="form-input"
+                type="email"
+                placeholder="メールアドレス（必須）"
+                required
+                aria-label="メールアドレス"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-textarea"
+                placeholder="ご質問・相談内容"
+                rows="4"
+                aria-label="ご質問・相談内容"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn" type="submit">申し込む</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+         Footer
+    ======================================== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <p class="footer__brand">ゼロ高（学生制作）</p>
+          <p class="footer__note">
+            非公式の学生制作ページです。最新の公式情報は
+            <a href="https://www.zero-ko.com/">公式サイト</a> をご確認ください。
+          </p>
+        </div>
+        <div class="footer__social">
+          <a
+            href="https://twitter.com/intent/tweet?text=ゼロ高生がつくったページを見てみよう！&url=https://zero-ko.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Xでシェア
+          </a>
+          <span class="footer__social-divider">|</span>
+          <a href="#">Instagramで見る</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- スクリプト -->
+    <script src="main.js"></script>
+  </body>
+</html>
